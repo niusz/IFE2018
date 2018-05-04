@@ -1,0 +1,42 @@
+.bold {
+    font-weight: bold;
+}
+body {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+header h1 {
+   font-size: 20px;
+   background: #858585;
+   padding: 20px;
+   color: #F9F8F9;
+}
+
+.clearfix::after {
+    visibility: hidden;
+    display: block;
+    content: "";
+    clear: both;
+    height: 0;
+    font-size: 0;
+}
+.info  h3 ,.contact h3,.ability h3,.edu h3, .exp h3 {
+    float: left;
+    margin-right: 30px;
+    
+    
+    
+}
+.info-des,.contact-des ,.ability-des,.edu-des,.exp-des {
+    float: left;
+}
+
+.clearfix {
+    border-bottom: 1px solid #E7E7E7;
+    height: 130px;
+    
+}
+.tech p, .general p ,.under p,.post p,.exp1 p,.exp2 p {
+    display: inline-block;
+}

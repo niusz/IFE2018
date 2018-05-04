@@ -1,0 +1,26 @@
+.bold {
+    font-weight: bold;
+}
+body {
+    margin-left: 20px;
+}
+header {
+   float: left;
+   width: 200px;
+   color: #ffffff;
+   background: #6CA9F5;
+   height: 800px;
+}
+
+header h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+main {
+    float: left;
+    margin-left: 30px;
+}
+
+h3 {
+    font-size: 30px;
+}

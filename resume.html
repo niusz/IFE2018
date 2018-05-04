@@ -5,34 +5,70 @@
     <meta charset="utf-8" />
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style_3.css" />
     <script src="main.js"></script>
 </head>
 <body>
-    <h1>简历</h1>
-    <h2>基本信息</h2>
-    <b>姓名</b>&nbsp;<span>张三</span>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-    <b>性别</b>&nbsp;<span>男</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>应聘职位</b>&nbsp; <span>Web前端工程师</span>
-    <h2>联系方式</h2>
-    <b>手机</b>&nbsp; <span>12312341234</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Email</b>&nbsp;&nbsp;<a href="">joinefe@baidu.com</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <b>个人主页</b>&nbsp;<a href="">Github</a>
-    <h2>能力描述</h2>
-        <b>技术能力</b>
-        <p>熟练掌握HTML,CSS,Javascript</p>
-        <b>综合能力</b>
-        <p>良好的沟通，主动积极，努力勤奋</p>
-    <h2>教育经历</h2>
-        <b>本科</b>
-        <p>百度前端技术学院小薇学院</p>
-        <b>研究生</b>
-        <p>百度前端技术学院大斌学院</p>
-    <h2>项目经历</h2>
-        <b>小度小度</b>
-        <p>作为前端工程师角色参与了ABC组件的开发</p>    
-        <b>SAN Doc</b>
-        <p>作为文档工程师参与了SAN Doc的编写</p>
-
-
-
-</body>
-</html>
+    <header><h1>简历</h1></header>
+    <main>
+        <section class="info clearfix">
+            <h3>基本信息</h3>
+            <div class="info-des">
+                <b>姓名</b>&nbsp;&nbsp;<span>张三</span>&nbsp;&nbsp;
+                <b>性别</b>&nbsp;&nbsp;<span>男</span>&nbsp;&nbsp;
+                <b>应聘职位</b>&nbsp;&nbsp;<span>Web前端工程师</span>
+            </div>
+        </section>
+        <section class="contact clearfix">
+            <h3>联系方式</h3>
+            <div class="contact-des">
+                <span class="bold">手机</span>&nbsp;&nbsp;
+                <span>1231231333</span>&nbsp;&nbsp;
+                <span class="bold">Email</span>&nbsp;&nbsp;
+                <a href="">joinefe@gmail.com</a>&nbsp;&nbsp;
+                <span class="bold">个人主页</span>&nbsp;&nbsp;
+                <a href="">Github</a>
+            </div>
+        </section>    
+        <section class="ability clearfix">
+            <h3>能力描述</h3>
+            <div class="ability-des">
+                <div class="tech">
+                    <p class="bold">技术能力</p>
+                    <p>熟练掌握Html,Css,Javascript</p>
+                </div>    
+                <div class="general">
+                    <p class="bold">综合能力</p>
+                    <p>良好的沟通，主动积极，努力勤奋</p>
+                </div>    
+            </div>    
+        </section> 
+        <section class="edu clearfix">  
+                <h3>教育经历</h3>
+                <div class="edu-des">
+                    <div class="under">
+                        <p class="bold">本科</p>
+                        <p>百度前端技术教育学院小薇学院</p>
+                    </div>    
+                    <div class="post">
+                        <p class="bold">研究生</p>
+                        <p>百度前端技术教育学院大斌学院</p>
+                    </div>    
+                </div>    
+        </section>    
+        <section class="exp clearfix">        
+            <h3>项目经历</h3> 
+            <div class="exp-des"> 
+                <div class="exp1">
+                    <p class="bold">小度小度</p>
+                    <p>作为前端工程师角色参与了ABC组件的开发</p>
+                </div>    
+                <div class="exp2">
+                    <p class="bold">SAN Doc</p>
+                    <p>作为文档工程师参与了SAN Doc的编写</p>
+                </div>    
+            </div>      
+        </section>
+    </main>    
+    </body>
+    </html> 
