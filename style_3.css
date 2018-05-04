@@ -1,3 +1,6 @@
+* {
+    margin: 0;
+}
 .bold {
     font-weight: bold;
 }
@@ -24,7 +27,12 @@ header h1 {
 .info  h3 ,.contact h3,.ability h3,.edu h3, .exp h3 {
     float: left;
     margin-right: 30px;
-    
+    height: 50px;
+    line-height: 50px;
+    background: #d6d6d6;
+    text-align: center;
+    padding: 20px;
+   
     
     
 }
@@ -34,7 +42,8 @@ header h1 {
 
 .clearfix {
     border-bottom: 1px solid #E7E7E7;
-    height: 130px;
+    border-right: 1px solid #E7E7E7;
+   
     
 }
 .tech p, .general p ,.under p,.post p,.exp1 p,.exp2 p {
